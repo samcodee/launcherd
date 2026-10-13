@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "launcherd",
+    "slug": "launcherd",
+    "version": "1.2.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "launcherd",
+    "userInterfaceStyle": "dark",
+    "platforms": ["android"],
+    "android": {
+      "package": "dev.samcodee.launcherd",
+      "adaptiveIcon": {
+        "backgroundColor": "#0c1b26",
+        "foregroundImage": "./assets/images/adaptive-icon.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["android.permission.QUERY_ALL_PACKAGES"]
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#13273b",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-secure-store",
+      "./plugins/withHomeLauncher.js"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true,
+      "inlineModules": {
+        "watchedDirectories": ["src"]
+      }
+    }
+  }
+}

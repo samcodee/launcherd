@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Generated native projects (Continuous Native Generation)
+/android
+/ios
+
+# Build artifacts
+rel/
+*.apk
+*.aab
+*.orig.*
+
+# Signing material
+*.jks
+*.keystore
+*base64
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Editors / OS
+.DS_Store
+*.tsbuildinfo
+/workflows
