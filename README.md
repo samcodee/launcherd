@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/icon.png" width="128" alt="launcherd icon" />
+</p>
+
 # launcherd
 
 A minimal, PIN-protected Android launcher built for students and people who want fewer
