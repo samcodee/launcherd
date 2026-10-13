@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/icon.png" width="128" alt="launcherd icon" />
+  <img src="assets/icon.png" width="128" alt="launcherd icon" />
 </p>
 
 # launcherd
